@@ -1,0 +1,23 @@
+SELECT n.ID AS iMIS_ID
+	,na.ADDRESS_NUM
+	,n.FIRST_NAME
+	,n.LAST_NAME
+	,na.ADDRESS_1
+	,na.ADDRESS_2
+	,na.CITY
+	,na.STATE_PROVINCE
+	,na.ZIP
+	,na.COUNTRY
+	,na.EMAIL
+	,n.COMPANY
+	,na.PHONE
+FROM SHM_iMIS..NAME n
+INNER JOIN SHM_iMIS..Name_Address na
+	ON n.ID = na.ID
+WHERE na.PREFERRED_MAIL = 1
+	AND na.BAD_ADDRESS = ''
+	AND n.COMPANY_RECORD = 0
+	AND n.ID NOT IN (
+		SELECT ID
+		FROM To_Doximity_June_2015_Verified
+		)

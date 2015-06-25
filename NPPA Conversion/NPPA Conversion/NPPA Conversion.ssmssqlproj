@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="NPPA Conversion">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="SHMSQL03:SHM\adominello">
+          <Created>2015-04-10T14:41:56.7614048-04:00</Created>
+          <Type>SQL</Type>
+          <Server>SHMSQL03</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+        <ConnectionNode Name="SHMSQLDEV08:SHM\adominello">
+          <Created>2015-04-28T12:28:45.5673074-04:00</Created>
+          <Type>SQL</Type>
+          <Server>SHMSQLDEV08</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="NPPA_Count_Logic.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMSQL03:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMSQL03</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>NPPA_Count_Logic.sql</FullPath>
+        </FileNode>
+        <FileNode Name="INTL_Count.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMSQL03:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMSQL03</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>INTL_Count.sql</FullPath>
+        </FileNode>
+        <FileNode Name="InvalidStateCodes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMSQL03:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMSQL03</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>InvalidStateCodes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="InvalidCountry.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMSQL03:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMSQL03</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>InvalidCountry.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Name_AddressNoName.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMSQL03:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMSQL03</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Name_AddressNoName.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Name_No_Name_Address.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMSQL03:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMSQL03</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Name_No_Name_Address.sql</FullPath>
+        </FileNode>
+        <FileNode Name="MD_LastBigTest.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMSQL03:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMSQL03</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>MD_LastBigTest.sql</FullPath>
+        </FileNode>
+        <FileNode Name="NPPA_Changes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMSQL03:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMSQL03</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>NPPA_Changes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="NPPAP_Changes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMSQL03:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMSQL03</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>NPPAP_Changes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="INTLP_Count.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMSQLDEV08:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMSQLDEV08</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>INTLP_Count.sql</FullPath>
+        </FileNode>
+        <FileNode Name="AHA_Lists_1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMSQLDEV08:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMSQLDEV08</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>AHA_Lists_1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Add_HL_Recods.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMSQLDEV08:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMSQLDEV08</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Add_HL_Recods.sql</FullPath>
+        </FileNode>
+        <FileNode Name="AHA_Lists_2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMSQLDEV08:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMSQLDEV08</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>AHA_Lists_2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="AHA_Lists_2_Log_Entries.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMSQL03:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMSQL03</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>AHA_Lists_2_Log_Entries.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

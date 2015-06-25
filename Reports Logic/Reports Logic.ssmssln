@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# SQL Server Management Studio Solution File, Format Version 12.00
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Reports Logic", "Reports Logic\Reports Logic.ssmssqlproj", "{7F6DB78D-CCE9-4D72-88EF-694C34CD1A23}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Incomplete Records Searches", "Incomplete Records Searches\Incomplete Records Searches.ssmssqlproj", "{F04CA062-93AC-4429-8065-8A01B06356ED}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Membership Pulls", "Membership Pulls\Membership Pulls.ssmssqlproj", "{04424A1A-B640-4B3C-890A-A1036CAB5754}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "IT Reports", "IT Reports\IT Reports.ssmssqlproj", "{DF8BA9E2-3100-4502-9C2C-C0DBA7AE5C34}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F6DB78D-CCE9-4D72-88EF-694C34CD1A23}.Default|Default.ActiveCfg = Default
+		{F04CA062-93AC-4429-8065-8A01B06356ED}.Default|Default.ActiveCfg = Default
+		{04424A1A-B640-4B3C-890A-A1036CAB5754}.Default|Default.ActiveCfg = Default
+		{A35D69E0-7208-4579-AA58-86B1AF00A545}.Default|Default.ActiveCfg = Default
+		{DF8BA9E2-3100-4502-9C2C-C0DBA7AE5C34}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

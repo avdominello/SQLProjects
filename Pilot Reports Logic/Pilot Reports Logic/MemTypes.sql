@@ -1,0 +1,10 @@
+SELECT [MEMBER_TYPE]
+	,[DESCRIPTION]
+FROM [Member_Types]
+WHERE MEMBER_TYPE IN (
+		'PHYS'
+		,'ALLH'
+		,'NPPA'
+		,'RESF'
+		,'AFFIL'
+		)

@@ -1,0 +1,74 @@
+DECLARE @imisid VARCHAR(10);
+
+DECLARE cs CURSOR
+FOR
+SELECT DISTINCT n.ID
+FROM NAME n
+INNER JOIN Name_Address na ON n.ID = na.ID
+WHERE n.MEMBER_TYPE LIKE '%P'
+	AND na.BAD_ADDRESS = 'B'
+
+OPEN cs
+
+BEGIN TRANSACTION
+
+FETCH NEXT
+FROM cs
+INTO @imisid
+
+WHILE @@FETCH_STATUS = 0
+BEGIN
+	INSERT INTO dba..ProspectsWithBadAddresses (
+		[ID]
+		,[FIRST_NAME]
+		,[LAST_NAME]
+		,[EMAIL]
+		,[COMPANY]
+		,[ADDRESS_NUM]
+		,[BAD_ADDRESS]
+		,[ADDRESS_1]
+		,[ADDRESS_2]
+		,[ADDRESS_3]
+		,[CITY]
+		,[STATE_PROVINCE]
+		,[ZIP]
+		,[COUNTRY]
+		,[W_PHONE]
+		)
+	SELECT TOP 1 n.ID
+		,n.FIRST_NAME
+		,n.LAST_NAME
+		,na.EMAIL
+		,n.COMPANY
+		,na.ADDRESS_NUM
+		,na.BAD_ADDRESS
+		,na.ADDRESS_1
+		,na.ADDRESS_2
+		,na.ADDRESS_3
+		,na.CITY
+		,na.STATE_PROVINCE
+		,na.ZIP
+		,na.COUNTRY
+		,n.WORK_PHONE
+	FROM NAME n
+	INNER JOIN Name_Address na ON n.ID = na.ID
+	WHERE n.ID = @imisid
+		AND n.COMPANY_RECORD = 0
+		AND NOT EXISTS (
+			SELECT ADDRESS_NUM
+			FROM Name_Address
+			WHERE ID = @imisid
+				AND BAD_ADDRESS = ''
+			)
+		and na.PURPOSE like 'Ho%'
+
+	FETCH NEXT
+	FROM cs
+	INTO @imisid
+END
+
+CLOSE cs
+
+DEALLOCATE cs
+	-- ROLLBACK
+	-- COMMIT

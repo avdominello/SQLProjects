@@ -1,0 +1,8 @@
+BEGIN TRANSACTION
+
+UPDATE IMIS_201506_Complete
+SET MatchString = imis_LAST_NAME + SUBSTRING(imis_FIRST_NAME, 1, 1) + SUBSTRING(MD_AddressLine1, 1, (CHARINDEX(' ', MD_AddressLine1 + ' ') - 1))
+
+-- ROLLBACK
+
+-- COMMIT

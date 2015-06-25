@@ -1,0 +1,14 @@
+SELECT o.ST_ID
+	,o.BATCH_NUM
+	,o.ORDER_DATE
+	,om.meeting
+	,COUNT(*)
+FROM dbo.Orders o
+INNER JOIN Order_meet om ON o.ORDER_NUMBER = om.ORDER_NUMBER
+WHERE o.ORDER_TYPE_CODE = 'MEETING'
+	AND ISNULL(o.ST_ID, '') <> ''
+GROUP BY o.ST_ID
+	,o.BATCH_NUM
+	,o.ORDER_DATE
+	,om.meeting
+HAVING COUNT(*) > 1

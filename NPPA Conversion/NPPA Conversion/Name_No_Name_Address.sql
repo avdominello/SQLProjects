@@ -1,0 +1,6 @@
+SELECT *
+FROM NAME
+WHERE ID NOT IN (
+		SELECT ID
+		FROM Name_Address
+		)

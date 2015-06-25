@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Incomplete Records Searches">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="SHMSQLDEV08:SHM\adominello">
+          <Created>2015-05-01T08:51:24.8654544-04:00</Created>
+          <Type>SQL</Type>
+          <Server>SHMSQLDEV08</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="DataSet1_PHYS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMSQLDEV08:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMSQLDEV08</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DataSet1_PHYS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DataSet2_ALNPIN.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMSQLDEV08:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMSQLDEV08</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DataSet2_ALNPIN.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DataSet4_AFFIL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMSQLDEV08:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMSQLDEV08</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DataSet4_AFFIL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DataSet5_STU.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMSQLDEV08:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMSQLDEV08</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DataSet5_STU.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DataSet3_RESF.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMSQLDEV08:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMSQLDEV08</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DataSet3_RESF.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DataSet6_Prospects.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMSQLDEV08:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMSQLDEV08</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DataSet6_Prospects.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

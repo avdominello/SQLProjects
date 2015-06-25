@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Reports Logic">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="SHMSQL03:SHM\adominello">
+          <Created>2015-05-05T14:34:16.7159293-04:00</Created>
+          <Type>SQL</Type>
+          <Server>SHMSQL03</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="SHMSQLDEV08:SHM\adominello">
+          <Created>2015-04-29T11:08:37.9943268-04:00</Created>
+          <Type>SQL</Type>
+          <Server>SHMSQLDEV08</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="FullDatabaseMailing.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMSQL03:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMSQL03</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>FullDatabaseMailing.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HospitalistMailingList.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMSQL03:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMSQL03</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>HospitalistMailingList.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HospitalistMailingList_ProspectList.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMSQL03:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMSQL03</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>HospitalistMailingList_ProspectList.sql</FullPath>
+        </FileNode>
+        <FileNode Name="MembersProsoects_Email.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMSQL03:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMSQL03</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>MembersProsoects_Email.sql</FullPath>
+        </FileNode>
+        <FileNode Name="MembersProspects_MailOnly.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMSQL03:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMSQL03</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>MembersProspects_MailOnly.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Name_Log_Search.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMSQLDEV08:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMSQLDEV08</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Name_Log_Search.sql</FullPath>
+        </FileNode>
+        <FileNode Name="FellowsEligible.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMSQL03:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMSQL03</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>FellowsEligible.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SrFellowsEligible.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMSQL03:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMSQL03</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SrFellowsEligible.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

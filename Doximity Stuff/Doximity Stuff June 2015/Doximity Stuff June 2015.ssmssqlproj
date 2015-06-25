@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Doximity Stuff June 2015">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="SHMREPORTS01:SHM\adominello">
+          <Created>2015-06-04T11:48:17.2604097-04:00</Created>
+          <Type>SQL</Type>
+          <Server>SHMREPORTS01</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="CBSA_Data.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMREPORTS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMREPORTS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CBSA_Data.sql</FullPath>
+        </FileNode>
+        <FileNode Name="iMIS_All_Verified_Report.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMREPORTS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMREPORTS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>iMIS_All_Verified_Report.sql</FullPath>
+        </FileNode>
+        <FileNode Name="iMIS_NotYetVerified.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMREPORTS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMREPORTS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>iMIS_NotYetVerified.sql</FullPath>
+        </FileNode>
+        <FileNode Name="MatchByAddressKey.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMREPORTS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMREPORTS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>MatchByAddressKey.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Addresssearch.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMREPORTS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMREPORTS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Addresssearch.sql</FullPath>
+        </FileNode>
+        <FileNode Name="MatchByEmail.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMREPORTS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMREPORTS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>MatchByEmail.sql</FullPath>
+        </FileNode>
+        <FileNode Name="MatchStringByMD.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMREPORTS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMREPORTS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>MatchStringByMD.sql</FullPath>
+        </FileNode>
+        <FileNode Name="MatchStringMatch.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMREPORTS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMREPORTS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>MatchStringMatch.sql</FullPath>
+        </FileNode>
+        <FileNode Name="MatchWithiMIS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMREPORTS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMREPORTS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>MatchWithiMIS.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

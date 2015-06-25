@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Update Data Cube">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="SHMREPORTS01:SHM\adominello">
+          <Created>2015-06-25T13:43:57.7889215-04:00</Created>
+          <Type>SQL</Type>
+          <Server>SHMREPORTS01</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="SHMSQL03:SHM\adominello">
+          <Created>2015-05-13T15:25:14.5753384-04:00</Created>
+          <Type>SQL</Type>
+          <Server>SHMSQL03</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>dba</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="SHMSQLDEV08:SHM\adominello">
+          <Created>2015-05-13T15:25:10.9453384-04:00</Created>
+          <Type>SQL</Type>
+          <Server>SHMSQLDEV08</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="01_dimPopulation_initial_load.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMSQL03:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMSQL03</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>01_dimPopulation_initial_load.sql</FullPath>
+        </FileNode>
+        <FileNode Name="02_Update_FHM.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMREPORTS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMREPORTS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>02_Update_FHM.sql</FullPath>
+        </FileNode>
+        <FileNode Name="03_Update_SFHM.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMREPORTS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMREPORTS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>03_Update_SFHM.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04_Update_FSFHM.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMREPORTS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMREPORTS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>04_Update_FSFHM.sql</FullPath>
+        </FileNode>
+        <FileNode Name="05_For_Both_FHM_SFHM.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMREPORTS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMREPORTS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>05_For_Both_FHM_SFHM.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06_Qualified_for_Membership.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMREPORTS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMREPORTS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>06_Qualified_for_Membership.sql</FullPath>
+        </FileNode>
+        <FileNode Name="07_Not_Qualified.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMREPORTS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMREPORTS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>07_Not_Qualified.sql</FullPath>
+        </FileNode>
+        <FileNode Name="08_Qualify_Status_Unknown.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMREPORTS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMREPORTS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>08_Qualify_Status_Unknown.sql</FullPath>
+        </FileNode>
+        <FileNode Name="09_Active_Members.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMREPORTS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMREPORTS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>09_Active_Members.sql</FullPath>
+        </FileNode>
+        <FileNode Name="10_Last_Year_Attendee.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMREPORTS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMREPORTS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>10_Last_Year_Attendee.sql</FullPath>
+        </FileNode>
+        <FileNode Name="11_Attended_123_Years.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMREPORTS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMREPORTS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>11_Attended_123_Years.sql</FullPath>
+        </FileNode>
+        <FileNode Name="12_Attendee_ovr_3_years.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMREPORTS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMREPORTS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>12_Attendee_ovr_3_years.sql</FullPath>
+        </FileNode>
+        <FileNode Name="13_AM_Attendee.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMREPORTS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMREPORTS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>13_AM_Attendee.sql</FullPath>
+        </FileNode>
+        <FileNode Name="14_On_Committee.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMREPORTS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMREPORTS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>14_On_Committee.sql</FullPath>
+        </FileNode>
+        <FileNode Name="15_factMembership_load.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMREPORTS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMREPORTS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>15_factMembership_load.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

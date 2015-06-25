@@ -1,0 +1,24 @@
+SELECT n.FIRST_NAME
+	,n.LAST_NAME
+	,n.COMPANY
+	,na.ADDRESS_1 AS AddLine1
+	,RTRIM(na.ADDRESS_2 + ' ' + na.ADDRESS_3) AS AddLine2
+	,na.CITY
+	,na.STATE_PROVINCE
+	,na.ZIP
+	,na.COUNTRY
+	,na.EMAIL
+	,n.ID
+	,na.ADDRESS_NUM
+FROM NAME n
+INNER JOIN Name_Address na ON n.ID = na.ID
+WHERE na.PREFERRED_MAIL = 1
+	AND n.COMPANY_RECORD = 0
+	-- AND na.BAD_ADDRESS = ''
+	AND n.MEMBER_TYPE IN (
+		'STU'
+		,'RESF'
+		,'RESFP'
+		)
+	-- AND n.COUNTRY = 'United States'
+	AND n.ID LIKE '____3__'

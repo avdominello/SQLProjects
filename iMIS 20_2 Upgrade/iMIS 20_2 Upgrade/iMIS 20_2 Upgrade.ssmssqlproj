@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="iMIS 20_2 Upgrade">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="SHMSQLDEV01:sa">
+          <Created>2015-04-17T11:37:45.9072342-04:00</Created>
+          <Type>SQL</Type>
+          <Server>SHMSQLDEV01</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="RefreshMetadataAllViews.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMSQLDEV01:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMSQLDEV01</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>RefreshMetadataAllViews.sql</FullPath>
+        </FileNode>
+        <FileNode Name="FindTuningAdvisorData.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMSQLDEV01:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMSQLDEV01</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>FindTuningAdvisorData.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SelectDuplicateRegistrations.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMSQLDEV01:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMSQLDEV01</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>SelectDuplicateRegistrations.sql</FullPath>
+        </FileNode>
+        <FileNode Name="UpdateMeetingOrdersWithNoSTID.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMSQLDEV01:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMSQLDEV01</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>UpdateMeetingOrdersWithNoSTID.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

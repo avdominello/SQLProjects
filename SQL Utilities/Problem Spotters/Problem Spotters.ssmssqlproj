@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Problem Spotters">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="SHMSQL03:SHM\adominello">
+          <Created>2015-06-19T12:54:31.4715023-04:00</Created>
+          <Type>SQL</Type>
+          <Server>SHMSQL03</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>SHM_iMIS</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="SHMSQLDEV08:SHM\adominello">
+          <Created>2015-04-14T15:24:28.8045298-04:00</Created>
+          <Type>SQL</Type>
+          <Server>SHMSQLDEV08</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>master</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="shmsqlsandbox:SHM\adominello">
+          <Created>2015-03-30T10:44:23.4794305-04:00</Created>
+          <Type>SQL</Type>
+          <Server>shmsqlsandbox</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="ListUnusedTableAndIndices.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMSQL03:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMSQL03</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ListUnusedTableAndIndices.sql</FullPath>
+        </FileNode>
+        <FileNode Name="FindDuplicateCompanyRecs.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMSQLDEV08:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMSQLDEV08</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>FindDuplicateCompanyRecs.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

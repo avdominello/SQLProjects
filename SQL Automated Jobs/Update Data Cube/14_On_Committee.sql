@@ -1,0 +1,14 @@
+BEGIN TRANSACTION
+
+UPDATE dimPopulation
+SET OnCommittee = 'Yes'
+WHERE iMISID IN (
+		SELECT DISTINCT ID
+		FROM SHMSQL03.SHM_iMIS.dbo.vBoCsActivity
+		WHERE productcode LIKE '%COMMITTEE%'
+			AND EffectiveDate = CONVERT(CHAR(4), YEAR(GETDATE()) - 1) + '-03-06'
+			AND ThruDate = CONVERT(CHAR(4), YEAR(GETDATE())) + '-03-05'
+		)
+	AND LoadDate = CONVERT(VARCHAR(8), GETDATE(), 112)
+	-- ROLLBACK
+	-- COMMIT

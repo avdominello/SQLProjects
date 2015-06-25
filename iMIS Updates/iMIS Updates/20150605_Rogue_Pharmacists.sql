@@ -1,0 +1,13 @@
+BEGIN TRANSACTION
+
+UPDATE NAME
+SET MEMBER_TYPE = CASE 
+		WHEN r.[Member Type] = 'NPPA'
+			THEN 'ALLH'
+		ELSE 'ALLHP'
+		END
+FROM NAME n
+INNER JOIN dba..[20150605_Rogue_Pharmacists] r ON n.ID = r.[iMIS Id]
+
+-- ROLLBACK
+-- COMMIT

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# SQL Server Management Studio Solution File, Format Version 12.00
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Update Data Cube", "Update Data Cube\Update Data Cube.ssmssqlproj", "{1530C299-19BD-4301-BF72-337D4C839710}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Original SQL Scripts", "Original SQL Scripts\Original SQL Scripts.ssmssqlproj", "{9B367EFA-BBB4-4A2C-87FE-EFC9AE7B46DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1530C299-19BD-4301-BF72-337D4C839710}.Default|Default.ActiveCfg = Default
+		{9B367EFA-BBB4-4A2C-87FE-EFC9AE7B46DE}.Default|Default.ActiveCfg = Default
+		{6D0EC2BC-CC50-49D3-9A3F-11B26694F5CC}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

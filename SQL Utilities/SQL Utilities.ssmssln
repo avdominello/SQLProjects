@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# SQL Server Management Studio Solution File, Format Version 12.00
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SQL Utilities", "SQL Utilities\SQL Utilities.ssmssqlproj", "{57CF6194-F2F8-4D48-A06D-779833FA363E}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Problem Spotters", "Problem Spotters\Problem Spotters.ssmssqlproj", "{5A7CC595-B21C-4A3F-8668-140A0BF7A988}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SHM Stored Procs", "SHM Stored Procs\SHM Stored Procs.ssmssqlproj", "{5796D5DA-28A8-4FDC-AC92-7FFB41E420A8}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "iMIS DB Maintenance Scripts", "iMIS DB Maintenance Scripts\iMIS DB Maintenance Scripts.ssmssqlproj", "{AC43F8BC-03DA-4671-B5D8-61595AA6025E}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Find Meeting Orders", "Find Meeting Orders\Find Meeting Orders.ssmssqlproj", "{DAF84BB3-6B67-4976-B6C1-826E563BADA6}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Shared Datasets", "Shared Datasets\Shared Datasets.ssmssqlproj", "{B4E26806-0D0F-4D32-BD2C-FAC66687ADFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57CF6194-F2F8-4D48-A06D-779833FA363E}.Default|Default.ActiveCfg = Default
+		{5A7CC595-B21C-4A3F-8668-140A0BF7A988}.Default|Default.ActiveCfg = Default
+		{5796D5DA-28A8-4FDC-AC92-7FFB41E420A8}.Default|Default.ActiveCfg = Default
+		{AC43F8BC-03DA-4671-B5D8-61595AA6025E}.Default|Default.ActiveCfg = Default
+		{DAF84BB3-6B67-4976-B6C1-826E563BADA6}.Default|Default.ActiveCfg = Default
+		{B4E26806-0D0F-4D32-BD2C-FAC66687ADFE}.Default|Default.ActiveCfg = Default
+		{E51F448F-589D-4F45-A963-5684E6F10FF5}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

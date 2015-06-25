@@ -1,0 +1,19 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Melissa Data Xtracts from iMIS", "Melissa Data Xtracts from iMIS\Melissa Data Xtracts from iMIS.ssmssqlproj", "{D85B76A0-E96C-4BF5-BBC4-A4CF644FC2F2}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "MD Reports SQL", "MD Reports SQL\MD Reports SQL.ssmssqlproj", "{DCBEDD05-1FB8-4C58-A59C-1F7FD3456E55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D85B76A0-E96C-4BF5-BBC4-A4CF644FC2F2}.Default|Default.ActiveCfg = Default
+		{00000000-0000-0000-0000-000000000000}.Default|Default.ActiveCfg = Default
+		{DCBEDD05-1FB8-4C58-A59C-1F7FD3456E55}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Membership Pulls">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="SHMSQL03:SHM\adominello">
+          <Created>2015-06-01T16:05:12.0999082-04:00</Created>
+          <Type>SQL</Type>
+          <Server>SHMSQL03</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>master</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="SHMSQLDEV08:SHM\adominello">
+          <Created>2015-06-01T16:05:35.2722252-04:00</Created>
+          <Type>SQL</Type>
+          <Server>SHMSQLDEV08</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="DupChecks.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMSQL03:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMSQL03</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DupChecks.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DoximitySend.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMSQL03:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMSQL03</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DoximitySend.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ValidationTableContents.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMSQLDEV08:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMSQLDEV08</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ValidationTableContents.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ValidationTables.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SHMSQLDEV08:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SHMSQLDEV08</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ValidationTables.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

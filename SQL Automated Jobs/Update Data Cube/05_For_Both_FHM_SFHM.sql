@@ -1,0 +1,12 @@
+BEGIN TRANSACTION
+
+UPDATE dimPopulation
+SET FellowCode = 'MFHM'
+WHERE iMISID IN (
+		SELECT DISTINCT ID
+		FROM SHMSQL03.SHM_iMIS.dbo.fhm
+		WHERE mast_fellow = 1
+		)
+	AND LoadDate = CONVERT(VARCHAR(8), GETDATE(), 112)
+	-- ROLLBACK
+	-- COMMIT

@@ -1,0 +1,6 @@
+SELECT um.UserKey
+	,o.ST_ID
+FROM SHM_iMIS..Order_Meet om
+INNER JOIN SHM_iMIS..Orders o ON om.ORDER_NUMBER = o.ORDER_NUMBER
+LEFT OUTER JOIN SHM_iMIS..UserMain um ON o.ST_ID = um.ContactMaster
+WHERE om.MEETING = 'QSEA0515'

@@ -1,0 +1,9 @@
+SELECT id
+	,na.PURPOSE
+	,na.COUNTRY
+FROM Name_Address na
+WHERE COUNTRY <> ''
+	AND COUNTRY NOT IN (
+		SELECT COUNTRY
+		FROM Country_Names
+		)
